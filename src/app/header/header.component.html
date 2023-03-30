@@ -1,0 +1,48 @@
+<header class="main-header">
+  <h1 class="main-header__title">
+    <span class="main-header__title--yellow">GoldPiece</span
+    ><span class="main-header__title--gray">Informática</span>
+  </h1>
+  <div class="container-menu">
+    <nav class="main-header__menu">
+      <ul>
+        <li>
+          <a href="produtos">Produtos</a>
+        </li>
+        <li>
+          <a href="carrinho">
+            <i class="fas fa-solid fa-cart-shopping"></i>
+            Carrinho
+            <span class="badge-carrinho">{{
+              carrinhoService.obtemCarrinho().length
+            }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="contato">Contato</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa fa-brands fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fa fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fa fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fa fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>
+  </div>
+</header>

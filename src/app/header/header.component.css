@@ -1,0 +1,59 @@
+.main-header {
+  padding: 10px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.main-header__title {
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  letter-spacing: -1.5px;
+  cursor: pointer;
+}
+
+.main-header__title--yellow {
+  color: var(--yellow);
+  font-size: 60px;
+}
+
+.main-header__title--gray {
+  color: #d6d5cf;
+  font-size: 60px;
+}
+
+.main-header__menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-header__menu a {
+  padding: 10px 10px;
+  color: var(--yellow);
+  font-weight: 400;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+}
+
+.badge-carrinho {
+  background-color: var(--mid-blue);
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
